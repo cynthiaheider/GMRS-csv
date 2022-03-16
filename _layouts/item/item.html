@@ -11,7 +11,7 @@ item-meta: true
             <div class="card mb-4 text-center">
                 <div class="m-2">
                     <p>
-                        {% include item/line-translation.html %}
+                        {% include item/item-thumb.html %}
                     </p>
                 </div>
                 
@@ -41,6 +41,9 @@ item-meta: true
         </div>
         {% endif %}
     </div>
+
+    {% include item/line-translation.html %}
+
 
     {%- if site.data.theme.browse-buttons == true -%}
         {% include item/browse-buttons.html %}
