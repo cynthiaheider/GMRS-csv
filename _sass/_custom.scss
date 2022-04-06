@@ -5,13 +5,22 @@
 
 .line-translation{
 	display:flex;
+	gap:2%;
 
 }
 
 .left{
+	max-width:45%;
 	
 }
 
 .right{
+	max-width:45%;
 	
+}
+
+pre {
+	background-color:#e9ecef;
+	padding:5%;
+
 }
