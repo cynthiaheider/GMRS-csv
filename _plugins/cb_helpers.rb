@@ -41,7 +41,7 @@ module CollectionBuilderHelperGenerator
         # check configured metadata exists
         if site.data[site.config['metadata']]
           # find item in site metadata
-          featured_record = site.data[site.config['metadata']].select { |item| item['objectid'] == featured_image }
+          featured_record = site.data[site.config['metadata']].select { |item| item[objectid'] == featured_image }
           # provide error message if no matching item
           if featured_record.empty?
             puts color_text("Error cb_helpers: Item for featured image with objectid '#{featured_image}' not found in configured metadata '#{site.config['metadata']}'. Please check 'featured-image' in '_data/theme.yml'", :yellow)
