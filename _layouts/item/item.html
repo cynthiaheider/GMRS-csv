@@ -4,6 +4,8 @@ item-meta: true
 ---
 <div class="container py-3">
 
+{% include item/line-translation.html %}
+
     {% include item/breadcrumbs.html %}
 
     <div class="row">
@@ -41,8 +43,6 @@ item-meta: true
         </div>
         {% endif %}
     </div>
-
-    {% include item/line-translation.html %}
 
 
     {%- if site.data.theme.browse-buttons == true -%}
