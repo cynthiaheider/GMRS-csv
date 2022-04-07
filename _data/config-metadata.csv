@@ -1,25 +1,30 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
+title_orig,Title,,,,
 title,Title (Translated),,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.created,dateCreated
+introduction,Introduction,,,,
 description,Description,,,DCTERMS.description,description
+creator,Author,,,DCTERMS.creator,creator
+translator,Translator,true,,,
+language,Language,true,,,
+region,Region,true,,,
+period,Time Period,true,,,
+date,Date Created,,,DCTERMS.created,dateCreated
+genre,Genre,true,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-source,Source,,,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license
+source,Source,,,,
 
-title_orig,Title,,,,
-translator,Translator,true,,,
-introduction,Introduction,,,,
-period,Time Period,true,,,
-genre,Genre,true,,,
-region,Region,true,,,
-language,Language,true,,,
+
+
+
+
+
 orig_text,Text,,,,
 trans_text,Text (Translated),,,,
 endnotes,References,,,,
