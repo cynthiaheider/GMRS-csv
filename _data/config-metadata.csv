@@ -4,7 +4,7 @@ title,Title (Translated),,,DCTERMS.title,headline
 introduction,Introduction,,,,
 description,Description,,,DCTERMS.description,description
 creator,Author,,,DCTERMS.creator,creator
-translator,Translator,true,,,
+translator,Translator,,,,
 language,Language,true,,,
 region,Region,true,,,
 period,Time Period,true,,,

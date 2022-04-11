@@ -1,6 +1,7 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
+period,Time Period,,,Time Period
 creator,Creator,,,
-subject,,true
-location,,true
+subject,Subjects,true,,
+region,Region,true,,
 identifier,,,true,Identifier
