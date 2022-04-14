@@ -9,6 +9,11 @@
 
 }
 
+.line-translation_nos{
+	display:flex;
+	gap:2%;
+}
+
 .left{
 	max-width:45%;
 	
@@ -21,6 +26,7 @@
 
 pre {
 	background-color:#e9ecef;
-	padding:5%;
+	padding:1rem; /* constant value rather than % of text block */
+
 
 }

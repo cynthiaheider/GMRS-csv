@@ -1,0 +1,17 @@
+{% comment %} The next line displays the original title (if available), then the translated title.{%- endcomment -%}
+<h2> {% if page.title_orig %}{{ page.title_orig }} | {% endif %}{{ page.title }} </h2>
+
+<div class="line-translation_nos">
+	<div class="left">
+		<h4> Transcription </h4>
+		{%- highlight plaintext linenos -%}
+		{{ page.orig_text }}
+		{%- endhighlight -%}
+	</div>
+	<div class="right">
+		<h4> Translation </h4>
+		{%- highlight plaintext linenos -%}
+		{{ page.trans_text }}
+		{%- endhighlight -%}
+	</div>
+</div>
