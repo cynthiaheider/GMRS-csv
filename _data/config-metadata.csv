@@ -19,12 +19,4 @@ type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license
 source,Source,,,,
-
-
-
-
-
-
-orig_text,Text,,,,
-trans_text,Text (Translated),,,,
 endnotes,References,,,,

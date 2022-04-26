@@ -23,11 +23,11 @@ title: Global Medieval and Early Modern Digital Library
 tagline: Site tagline
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+# description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+# keywords: idaho;history;inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+# author: CollectionBuilder
 
 highlighter: rouge
 
@@ -54,8 +54,8 @@ page_gen:
 #
 organization-name: "Center for Research Data and Digital Scholarship, Penn Libraries"
 organization-link: https://www.library.upenn.edu/help-with/research-data-digital-scholarship
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-logo-banner: http://127.0.0.1:4000/assets/img/PennLibrariesLogo2020_BlackRGB.png
+organization-logo-nav: http://127.0.0.1:4000/assets/img/PennLibrariesLogo2020_BlackRGB.png
 
 ##########
 # GOOGLE SERVICES [optional!]

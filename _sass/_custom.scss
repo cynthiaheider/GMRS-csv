@@ -16,7 +16,7 @@
 
 .left{
 	max-width:45%;
-	
+	overflow-wrap: normal;
 }
 
 .right{
@@ -27,6 +27,6 @@
 pre {
 	background-color:#e9ecef;
 	padding:1rem; /* constant value rather than % of text block */
-
+	overflow-wrap: normal;
 
 }
