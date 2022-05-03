@@ -3,24 +3,20 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-.line-translation{
-	display:flex;
-	gap:2%;
-
-}
 
 .line-translation_nos{
 	display:flex;
-	gap:2%;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 .left{
-	max-width:45%;
+	max-width:49%;
 	overflow-wrap: normal;
 }
 
 .right{
-	max-width:45%;
+	max-width:49%;
 	
 }
 
