@@ -1,13 +1,15 @@
 {% if page.layout == "home-infographic" and site.data.theme.featured-image %}
 <style>
 #home-banner {
-    background-image: url('{{ site.data.featured_item.src | relative_url }}');
+    background-color: #011f5b;
+    /*background-image: url('{{ site.data.featured_item.src | relative_url }}');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
+    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};*/
 }
 
 #home-title-box {
+    
     padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
     padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
 }
