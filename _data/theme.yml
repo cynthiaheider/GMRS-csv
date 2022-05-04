@@ -8,11 +8,11 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: 'assets/img/cropped-cropped-World_LJS_Agnese_7v-8r-1ilyx04.jpg'
+featured-image: 'assets/img/World_LJS_Agnese_7v-8r.jpg'
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: center # Default is top
+home-banner-image-position: bottom # Default is top
 
 ##########
 # ITEM PAGE
@@ -82,9 +82,12 @@ bootswatch: # leave blank or comment out for plain bootstrap
 
 # THEME FONTS [optional!]
 base-font-size: 1.2em
-text-color: "#191919"
-link-color: "#17a2b8"
-base-font-family: # comment out for bootstrap defaults. e.g. Roboto
+text-color: black
+link-color: "#34798b"
+link-hover-color: darken($link-color, 15%)
+link-hover-decoration: underline
+link-disabled-color: "#757f8f"
+base-font-family: Arial # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
