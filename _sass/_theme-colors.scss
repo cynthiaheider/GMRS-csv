@@ -198,12 +198,10 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
         background-color: $active-background;
         border-color: $active-border;
     }
-
     .btn-check:focus + &,
     &:focus {
         box-shadow: 0 0 0 $btn-focus-width rgba($color, .5);
     }
-
     .btn-check:checked + &,
     .btn-check:active + &,
     &:active,

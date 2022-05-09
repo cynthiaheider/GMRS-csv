@@ -1,12 +1,12 @@
-<footer class="bg-dark pt-4 mt-auto container-fluid">
+<footer class="bg-light pt-4 mt-auto container-fluid">
 
     <div class="row border-bottom border-white pb-4 mb-2">
 
-        <div class="col-md-7  px-4 mt-2">
+        <div class="col-md-7 px-4 mt-2">
 
-            <h4><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></h4>
-            <p class="text-white"><small>{{ site.description }}</small></p>
-            <nav>
+            <h4><a href="{{ '/' | relative_url }}" class="text-black font-weight-normal">{{ site.title }}</a></h4>
+            <p class="text-black"><small>{{ site.tagline }}</small></p>
+<!--            <nav>
                 <ul id="footer-nav" class="nav nav-pills ">
                     {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
                     {% for nav in navItems %}
@@ -21,7 +21,7 @@
                     {%- endfor -%}
                 </ul>
             </nav>
-
+-->
         </div>
 
         <div class="col-md-5 mt-2 text-end">
@@ -32,7 +32,7 @@
                 </a>
             </p>
             {% endif %}
-            <p class="text-white" id="footer-credits">
+            <p class="text-black" id="footer-credits">
                 <small><em>built with</em>
                     <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
                         <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder logo" >
@@ -45,7 +45,7 @@
     </div>
 
     <div class="col-md-12 text-center pt-3 pb-1">
-        <p class="text-white">Last updated {{ site.time | date: '%Y' }}</p>
+        <p class="text-black">Last updated {{ site.time | date: '%Y' }}</p>
     </div>
 
 </footer>
