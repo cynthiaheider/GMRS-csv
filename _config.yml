@@ -20,10 +20,10 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # title of site appears in banner
 title: Global Medieval and Early Modern Digital Library
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Site tagline
+tagline: Medieval and Early Modern texts from around the globe translated into English.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-# description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: The Global Medieval and Early Modern Digital Library is an initiative of the Program in Global Medieval and Renaissance Studies (GMRS) at the University of Pennsylvania, in collaboration with Penn Libraries. The Digital Library brings together translations, often accompanied by transcriptions, of primary sources encompassing a wide range of genres, regions and languages from the period between Late Antiquity and 1700. The site allows these sources to be organized by theme, region, language and date. We hope it is a useful resource for scholars and students and will facilitate global research in premodern studies.
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 # keywords: idaho;history;inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
